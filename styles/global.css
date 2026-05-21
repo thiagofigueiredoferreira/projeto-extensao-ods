@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --bg-global: #f4f6f9;   
+    --text-dark: #1f2937;       
+    --text-muted: #4b5563;        
+    --card-bg: #ffffff;       
+    
+    
+    --ods-blue: #26b99a;        
+    --ods-navy: #00689d;         
+    --ods-green: #4c9f38;       
+    --ods-orange: #f26a36;        
+    --ods-red: #c7212f;          
+}
