@@ -148,7 +148,8 @@ body {
 }
 
 .conclusion-box {
-    background: linear-gradient(135deg, #ffffff, #f0f7ff); 
+    /* background: linear-gradient(135deg, #ffffff, #f0f7ff);  */
+     background: linear-gradient(135deg, var(--ods-navy), #00a0e2); 
     padding: 45px 35px;
     border-radius: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
