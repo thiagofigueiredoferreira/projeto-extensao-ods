@@ -67,6 +67,125 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.174);
 }
 
+.project-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-intro h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 15%;
+    height: 70%;
+    width: 5px;
+    background-color: var(--ods-green);
+    border-radius: 4px;
+}
+
+.intro-box {
+    background-color: var(--card-bg);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    line-height: 1.8;
+    font-size: 1.05rem;
+    color: var(--text-muted);
+}
+.interview-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.interview-row.reverse {
+    flex-direction: row-reverse;
+}
+.text-box {
+    flex: 1;
+    background-color: var(--card-bg);
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-top: 4px solid var(--ods-blue); 
+}
+
+.img-box {
+    width: 320px;
+    background-color: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.img-box:hover {
+    transform: translateY(-5px); 
+}
+
+.img-box img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 12px; 
+}
+
+.img-box span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--ods-navy);
+    text-align: center;
+}
+.conclusion-section {
+    width: 100%;
+}
+
+.conclusion-box {
+    background: linear-gradient(135deg, #ffffff, #f0f7ff); 
+    padding: 45px 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid var(--ods-navy); 
+}
+
+
+
+.footer-site {
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #888888;
+}
+@media (max-width: 768px) {
+    .interview-row, .interview-row.reverse {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .img-box {
+        width: 100%;
+    }
+    
+    .nav-bar {
+       
+        align-self: center;
+    }
+    
+    .main-title {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
 
 
 

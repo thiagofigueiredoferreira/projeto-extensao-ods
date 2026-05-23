@@ -6,3 +6,59 @@
     margin-left: 20px;
     transition: color 0.3s ease;
 }
+
+.nav-bar a:first-child {
+    margin-left: 0;
+}
+
+.nav-bar a:hover {
+    color: var(--ods-orange); 
+}
+
+.project-intro h2 {
+    color: var(--ods-navy);
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+    padding-left: 15px;
+}
+.interviews-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.interview-row.reverse .text-box {
+    border-top: 4px solid var(--ods-orange);
+}
+
+.interview-row:last-child .text-box {
+    border-top: 4px solid var(--ods-red);
+}
+.text-box h3 {
+    font-size: 1.7rem;
+    color: var(--text-dark);
+    font-weight: 700;
+}
+
+.text-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #222222;
+}
+
+.conclusion-box h2 {
+    color: var(--ods-navy);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.conclusion-box p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-muted);
+}
+
+
+
