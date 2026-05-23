@@ -1,0 +1,8 @@
+.nav-bar a {
+    text-decoration: none;
+    color: var(--ods-navy);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}

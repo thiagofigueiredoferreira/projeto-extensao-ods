@@ -18,3 +18,55 @@
     --ods-orange: #f26a36;        
     --ods-red: #c7212f;          
 }
+
+body {
+    background-color: var(--bg-global);
+    color: var(--text-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px; 
+    margin-top: 40px;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-title {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(135deg, var(--ods-navy), #00a0e2); 
+    color: #ffffff;
+    padding: 30px 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 16px; 
+    box-shadow: 0 10px 20px rgba(0, 104, 157, 0.15);
+}
+
+.nav-bar {
+    align-self: flex-end;
+    background-color: var(--card-bg);
+    padding: 10px 24px;
+    border-radius: 30px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.174);
+}
+
+
+
+
